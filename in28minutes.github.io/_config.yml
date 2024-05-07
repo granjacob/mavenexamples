@@ -1,0 +1,52 @@
+title: Spring Boot Tutorial
+email: ranga@in28minutes.com
+description: 1 MILLION learners learning Programming, Cloud and DevOps. Check out our roadmaps!
+url: 'https://www.in28minutes.com/'
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  # - jekyll-analytics
+
+# Products
+products:
+  - name: Articles
+    url: /blog
+  - name: Roadmaps
+    url: https://www.in28minutes.com/roadmaps
+
+# Articles
+articles:
+  - name: Spring Boot
+    url: https://www.springboottutorial.com/blog
+  - name: Cloud
+    url: https://cloud.in28minutes.com/blog
+
+collections:
+  blog:
+    output: true
+
+author:
+  name: Ranga Karanam
+  image: assets/images/about/ranga-karanam-profile-nobg.png
+  about: Ranga Karanam, founder of in28minutes, has 2 decades of experience with technology - architecture, design, and programming.  We are helping learners take their first steps into modern cloud native technology and gain expertise on AWS, Azure, Google Cloud, Docker, Kubernetes amongst others.
+  description: 10X certified on AWS, Azure and Google Cloud.
+
+social:
+  twitter: https://twitter.com/in28minutes
+  linkedin: http://linkedin.com/in/rangakaranam/
+  github: http://github.com/in28minutes/roadmaps
+  udemy: http://udemy.com/user/in28minutes
+  facebook: https://www.facebook.com/in28Minutes
+  youtube: https://www.youtube.com/user/rithustutorials
+
+google_analytics: G-VCB8BXNMPL
+
+# jekyll_analytics:
+#   GoogleAnalytics:
+#     id: UA-32942307-5
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
